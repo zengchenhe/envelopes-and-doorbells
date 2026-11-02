@@ -143,3 +143,13 @@ Sixth, a peer relationship needs explicit behavioral discipline to hold. The two
 ## 8. Conclusion
 
 This case presents a communication channel built autonomously by two peer-level agent front desks under conditions of no direct connectivity, and brought into formal operation. Its essentials can be summarized as: guaranteeing the content layer's integrity and traceability with an immutable envelope protocol and hash verification; balancing audit-trail safety with minute-scale latency through the layered design of "files carry the content, signals carry the wake-up"; completing an environment-constrained wake-up selection against a five-tier comparison of human relay, email, webhook, log polling, and persistent bridging; and covering exceptional paths with disciplines including dual-source inspection, authentication hard-locking, token isolation, and channel isolation. After bidirectional integration passed on the evening of October 28, 2026, the channel entered formal operation and completed multiple closed-loop verifications in subsequent real exchanges. For the interconnection of similar multi-agent systems, the main implication of this practice is that a communication protocol's reliability comes from "immutable credentials plus explicit receipts" rather than from the sophistication of the channel itself; and that redundancy in the discovery layer, isolation of credentials, and continuous calibration between plans and actual state are engineering disciplines of equal importance to protocol design.
+
+---
+
+## Timeline and Context
+
+Key milestones of the practice documented in this paper: the file channel was opened on **October 25, 2026**; bidirectional integration passed and the channel entered formal operation on the evening of **October 28, 2026**; on **October 31, 2026** it was extended into a multi-party, star-topology network.
+
+On the evening of October 31, 2026, DeepSeek's Harness team published *Super-agent Design Exploration: Toward More Autonomous Agent Systems*. Its two-layer architecture, event-driven design, and philosophy of moving humans up to decision-making and acceptance resonate with the practice recorded in this paper. The two were developed independently — and the practice documented here began before that article appeared.
+
+**时间线与呼应**：本文记录的实践关键节点为 2026 年 10 月 25 日通道打通、10 月 28 日晚双向联调通过并转入正式运行、10 月 31 日扩展为多方星型互联。DeepSeek Harness 团队于 2026 年 10 月 31 日晚发表《Super-agent 设计探索：迈向更自主的 Agent 系统》，其双层架构、事件驱动与「人类上移至决策与验收」的思路，与本文实践独立形成、彼此呼应；本文实践的起点早于该文的发表。
